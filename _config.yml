@@ -1,23 +1,19 @@
-# Welcome to Jekyll!
-# Theme Settings
+# 基础信息配置
 minimal_mistakes_skin: "default"
-
-# Site Settings
 locale: "zh-CN"
 title: "郎梓璇的作品集"
 title_separator: "-"
 name: "郎梓璇"
-description: "新媒体技术专业毕业生 - 个人作品展示"
+description: "新媒体技术专业 | 个人作品展示"
 url: "https://ohhacat.github.io"
 baseurl: ""
 repository: "ohhacat/ohhacat.github.io"
-teaser: # /assets/images/500x300.png
 
-# Site Author
+# 侧边栏作者信息
 author:
   name: "郎梓璇"
   avatar: "/assets/images/me.jpg"
-  bio: "正在寻找心仪工作的新媒体技术专业毕业生"
+  bio: "正在寻找新媒体技术岗位的毕业生"
   location: "杭州"
   email: "lang0388@163.com"
   links:
@@ -27,11 +23,11 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ohhacat"
-    - label: "下载我的简历"
+    - label: "简历下载"
       icon: "fas fa-fw fa-file-pdf"
       url: "/assets/resume.pdf"
 
-# Plugins
+# 插件声明
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -39,7 +35,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
-# Defaults
+# 默认布局设置
 defaults:
   - scope:
       path: ""
@@ -52,7 +48,7 @@ defaults:
       share: true
       related: true
 
-# 下面这些是保持系统运行的配置，不用动
+# 系统必要配置
 markdown: kramdown
 highlighter: rouge
 paginate: 5
