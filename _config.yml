@@ -114,31 +114,31 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "郎梓璇"
   avatar           : "/assets/images/me.jpg"
   bio              : "正在寻找心仪工作的新媒体技术专业毕业生"
   location         : "杭州"
-  email            :
+  email            : "lang0388@163.com"
   # fediverse      : "@you@instance.social"  # used for fediverse:creator meta tag
   links:
     - label: "Email"
       icon: "fas fa-fw fa-square-envelope"
-      # url: "mailto:your.name@email.com"
+      url: "lang0388@163.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-square-x-twitter"
-      # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-square-facebook"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/ohhcat"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "下载我的简历"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "/assets/resume.pdf"  # 只要你把简历传到assets文件夹改名resume.pdf就能用了
 
 # Site Footer
 footer:
